@@ -14,4 +14,9 @@ public class IndexController {
     public String test(){
         return "index/test";
     }
+
+    @GetMapping("/payment")
+    public String payment(){
+        return "index/payment";
+    }
 }
